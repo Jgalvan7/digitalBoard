@@ -1,4 +1,4 @@
-# Password Gen
+# Digital Board
 ![Portada del juego Zorro Feroz](https://jgalvandesign.com/assets/images/project__digitalBoard.jpg)
 ## Descripción
 Bienvenido a este proyecto en el cual podemos realizar dibujos en canvas con tan solo unas líneas de HTML5, CSS y Javascript.
