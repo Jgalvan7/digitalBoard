@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Title" content="Digital Board">
+    <meta name="Author" content="Jesus Galvan Gonzalez">
+    <meta name="Description" lang="es" content="Pizarra digital para tomar notas o realizar dibujos">
+    <meta name="Publisher" content="Jesus Galvan Gonzalez">
+    <meta name="Robots" content="All">
+    <title>Digital Board</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/icono_logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,600;0,900;1,300;1,600;1,900&amp;family=Oswald:wght@300;600;700&amp;display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles_jgd.css">
+  </head>
+  <body>
+    <main class="contenedor--project">
+      <section class="miniHeroCover">
+        <div class="miniHeroCover__imagen"><img src="./assets/images/project__digitalBoard.jpg" alt="Imagen de una pizarra digital"></div>
+        <div class="miniHeroCover__contenido">
+          <h2>Digital Board</h2>
+          <h4>Pizarra para realizar dibujos o tomar notas</h4>
+        </div>
+      </section>
+      <section class="moduloProject">
+        <div class="moduloProject__description">
+          <p>Bienvenido a este proyecto en el cual podemos realizar dibujos en canvas con tan solo unas líneas de HTML5, CSS y Javascript.</p>
+          <p>El proyecto te permite dibujar en la pantalla con el mouse actualmente, en próximas actualizaciones implementaré algo de diseño a los features de color y grosor de la línea para que resulte más atractivo, y también intentare corregir un desfase de la posición cuando se utiliza en móvil en futuras actualizaciones.</p>
+          <p>Puedes probar este proyecto aquí mismo para ver si te gusta o puedes descargar el código desde el repositorio e implementarlo donde desees.</p>
+        </div>
+        <div class="moduloProject__file">
+          <h3>Ficha técnica</h3>
+          <p>Versión: 1.0.0</p>
+          <p>Estado: Pendiente de actualización</p>
+          <p>Tecnologías:
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </p>
+          <p>Licencia: MIT</p>
+          <p>Repositorio: </br><a href="https://github.com/Jgalvan7/digitalBoard.git">Repositorio Guthub</a></p>
+        </div>
+      </section>
+      <section class="moduloBoard" id="canvasMouse">
+        <div class="moduloBoard__option">
+          <input type="color" name="selColor" id="selColor">
+          <select name="grosor" id="grosor">
+            <option value="1">1px</option>
+            <option value="2">2px</option>
+            <option value="3">3px</option>
+            <option value="4">4px</option>
+            <option value="5">5px</option>
+          </select>
+        </div>
+        <canvas class="moduloBoard__lienzo" width="700" height="450" id="areaDibujo"></canvas>
+      </section>
+    </main>
+    <script src="./src/digitalBoard.js"></script>
+  </body>
+</html>

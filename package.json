@@ -1,0 +1,24 @@
+{
+  "name": "digitalboard",
+  "version": "1.0.0",
+  "description": "\u0016Pizarra digital para tomar notas o realizar dibujos",
+  "main": "digitalBoard.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jgalvan7/digitalBoard.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Jesús Galván <galvan.jgg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jgalvan7/digitalBoard/issues"
+  },
+  "homepage": "https://github.com/Jgalvan7/digitalBoard#readme"
+}
